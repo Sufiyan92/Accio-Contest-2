@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ////////////////////////////////navigation/////////////////////// */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navigation {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+}
+
+.navigation li {
+    color: aliceblue;
+    display: inline-block;
+    margin: auto 20px;
+}
+
+.navigation ul {
+    position: relative;
+    right: -500px;
+}
+
+.navigation div {
+    margin: auto 60px;
+    font-size: 20px;
+}
+
+/* ////////////////////////////////////////Body////////////////////// */
+.ufc {
+    /* background-color: aquamarine; */
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.ufc div {
+    margin-top: 60px;
+    text-align: justify;
+    width: 40vw;
+    height: 400px;
+}
+
+.ufc button {
+    background-color: black;
+    border: none;
+    padding: 15px;
+}
+
+/* ////////////////////////////// */
+.lfc {
+    width: 90%;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+
+
+.lfc div {
+    background-color: aqua;
+    width: 25vw;
+    height: 35vh;
+}
+
+.lfc img {
+    width: 25vw;
+}
